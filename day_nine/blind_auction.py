@@ -24,7 +24,7 @@ next_bid = True
 
 while next_bid:
     name = input("What is your name..?\n")
-    bid = int(input("What is your bid..?\n"))
+    bid = int(input("What is your bid..? $\n"))
     total_bids = add_new_bid(name,bid) 
     promt_user = input("Are they are any other bidders..? Type 'yes' or 'no' \n").lower()
 
